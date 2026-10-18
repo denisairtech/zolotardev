@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zolotar Dev — פיתוח אפליקציות בהזמנה</title>
+<meta name="description" content="פיתוח אפליקציות אנדרואיד ואפליקציות ווב בהזמנה לעסקים קטנים, לטכנאים ולאנשי מקצוע בשטח. עברית, רוסית ואנגלית.">
+<meta name="theme-color" content="#1d4ed8">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/config.js" defer></script>
+<script src="assets/js/i18n.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="a11y.skip">דלגו לתוכן</a>
+
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="logo" href="#top" data-i18n-attr="aria-label:a11y.home" aria-label="Zolotar Dev — לראש הדף">
+      <span class="logo-mark" data-monogram aria-hidden="true">Z</span>
+      <span class="logo-text" data-brand>Zolotar Dev</span>
+    </a>
+    <nav id="site-nav" class="nav" data-i18n-attr="aria-label:a11y.menu" aria-label="תפריט">
+      <a href="#services" data-i18n="nav.services">שירותים</a>
+      <a href="#process" data-i18n="nav.process">איך עובדים</a>
+      <a href="#work" data-i18n="nav.work">תיק עבודות</a>
+      <a href="#contact" data-i18n="nav.contact">צור קשר</a>
+    </nav>
+    <div class="header-tools">
+      <div class="lang-switch" role="group" data-i18n-attr="aria-label:a11y.lang" aria-label="שפה">
+        <button type="button" data-lang="he" lang="he" aria-pressed="true">עב</button>
+        <button type="button" data-lang="ru" lang="ru" aria-pressed="false">RU</button>
+        <button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn-sm btn-primary header-cta" href="#contact" data-i18n="nav.cta">בואו נדבר</a>
+      <button id="menu-btn" class="menu-btn" type="button" aria-controls="site-nav" aria-expanded="false" data-i18n-attr="aria-label:a11y.menu" aria-label="תפריט"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="wrap hero-in">
+      <div class="hero-copy">
+        <p class="kicker" data-i18n="hero.kicker">פיתוח אפליקציות בהזמנה</p>
+        <h1 data-i18n-html="hero.title">אפליקציות שעובדות <em>בשטח</em>, בשביל העסק שלכם</h1>
+        <p class="lead" data-i18n="hero.sub">אפליקציות אנדרואיד ואפליקציות ווב לעסקים קטנים, לטכנאים ולאנשי מקצוע. קודם אתם רואים ומאשרים מוקאפים של המסכים, ורק אחר כך כותבים קוד.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary btn-lg" href="#contact" data-i18n="hero.cta">בואו נדבר על הפרויקט שלכם</a>
+          <a class="btn btn-ghost btn-lg" href="#work" data-i18n="hero.cta2">לפרויקט ClimaSnap IL</a>
+        </div>
+        <ul class="facts">
+          <li><span class="dot d-blue"></span><span data-i18n="hero.f1">מוקאפים לפני קוד</span></li>
+          <li><span class="dot d-amber"></span><span data-i18n="hero.f2">עברית, רוסית ואנגלית</span></li>
+          <li><span class="dot d-indigo"></span><span data-i18n="hero.f3">פרסום ב-Google Play</span></li>
+        </ul>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="blob b1"></div><div class="blob b2"></div>
+        <div class="phone back"><img data-shot="5duct" src="assets/img/climasnap/he/5duct.svg" width="540" height="1169" alt=""></div>
+        <div class="phone front"><img data-shot="1home" src="assets/img/climasnap/he/1home.svg" width="540" height="1169" alt="" fetchpriority="high"></div>
+        <div class="float-badge"><img src="assets/img/climasnap/icon-256.svg" width="36" height="36" alt=""><span data-i18n="hero.badge">ClimaSnap IL · בקרוב ב-Google Play</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services" aria-labelledby="services-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker" data-i18n="services.kicker">שירותים</p>
+        <h2 id="services-h" data-i18n="services.title">מה אפשר לבנות יחד</h2>
+        <p class="sec-sub" data-i18n="services.sub">מכלי אחד שחוסך זמן כל יום ועד אפליקציה שלמה לעסק.</p>
+      </div>
+      <div class="cards">
+        <article class="card"><div class="ic ic-blue" aria-hidden="true">📱</div><h3 data-i18n="s1.t">אפליקציות אנדרואיד</h3><p data-i18n="s1.d">אפליקציה לטלפון שלכם, של העובדים או של הלקוחות. יכולה לעבוד גם בלי אינטרנט, עם נתונים ותמונות שנשמרים במכשיר.</p></article>
+        <article class="card"><div class="ic ic-indigo" aria-hidden="true">🌐</div><h3 data-i18n="s2.t">אפליקציות ווב ו-PWA</h3><p data-i18n="s2.d">אתר שמתנהג כמו אפליקציה: נפתח בכל טלפון ומחשב, גם באייפון, ואפשר להוסיף אותו למסך הבית.</p></article>
+        <article class="card"><div class="ic ic-amber" aria-hidden="true">🧮</div><h3 data-i18n="s3.t">מחשבונים וכלים לעסק</h3><p data-i18n="s3.d">הצעת מחיר, בחירת ציוד, טופס עבודה או דוח ללקוח: כל מה שאתם עושים היום על דף או באקסל.</p></article>
+        <article class="card"><div class="ic ic-green" aria-hidden="true">🚀</div><h3 data-i18n="s4.t">פרסום ב-Google Play</h3><p data-i18n="s4.d">דף האפליקציה, צילומי מסך, מדיניות פרטיות, בדיקה סגורה ועדכוני גרסאות.</p></article>
+        <article class="card"><div class="ic ic-blue" aria-hidden="true">🗣️</div><h3 data-i18n="s5.t">עברית, רוסית ואנגלית</h3><p data-i18n="s5.d">ממשק בשלוש שפות עם תמיכה מלאה בכתיבה מימין לשמאל, כולל דוחות והודעות ללקוח.</p></article>
+        <article class="card"><div class="ic ic-amber" aria-hidden="true">📄</div><h3 data-i18n="s6.t">PDF ו-WhatsApp ללקוח</h3><p data-i18n="s6.d">דוח מסודר ב-PDF או סיכום בתמונה שנשלח ללקוח ב-WhatsApp בלחיצה אחת.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" aria-labelledby="about-h">
+    <div class="wrap about-in">
+      <div class="about-copy">
+        <p class="kicker" data-i18n="about.kicker">קצת עליי</p>
+        <h2 id="about-h" data-i18n="about.title">טכנאי מיזוג אוויר שמפתח אפליקציות</h2>
+        <p class="about-p" data-i18n="about.p">אני דניס זולוטר. אני מגיע מתחום מיזוג האוויר, ואת ClimaSnap IL פיתחתי בשביל טכנאים ומתקינים כמוני. אני יודע איך נראה יום עבודה בשטח: ידיים מלאות, לקוח שמחכה ולפעמים בלי קליטה. ככה אני בונה גם בשבילכם: פשוט, ברור ובשפה של המקצוע.</p>
+      </div>
+      <ul class="about-list">
+        <li><span class="ic ic-sm ic-blue" aria-hidden="true">🔧</span><div><h3 data-i18n="about.b1t">מבין את העבודה בשטח</h3><p data-i18n="about.b1d">האפליקציה צריכה לעבוד ביד אחת, מהר, וגם בלי אינטרנט.</p></div></li>
+        <li><span class="ic ic-sm ic-amber" aria-hidden="true">✏️</span><div><h3 data-i18n="about.b2t">רואים לפני שבונים</h3><p data-i18n="about.b2d">מוקאפים של כל מסך לפני הפיתוח, כדי שלא יהיו הפתעות.</p></div></li>
+        <li><span class="ic ic-sm ic-indigo" aria-hidden="true">🔒</span><div><h3 data-i18n="about.b3t">פרטיות כברירת מחדל</h3><p data-i18n="about.b3d">אוספים רק את מה שצריך. ב-ClimaSnap IL כל הנתונים נשארים בטלפון.</p></div></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section" id="process" aria-labelledby="process-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker" data-i18n="process.kicker">איך עובדים</p>
+        <h2 id="process-h" data-i18n="process.title">מרעיון לאפליקציה בחנות, צעד אחר צעד</h2>
+        <p class="sec-sub" data-i18n="process.sub">בכל שלב אתם רואים מה קורה ומאשרים לפני שממשיכים.</p>
+      </div>
+      <ol class="steps">
+        <li><span class="num">1</span><h3 data-i18n="p1.t">רעיון</h3><p data-i18n="p1.d">שיחה קצרה: מה הבעיה, מי ישתמש באפליקציה ומה חייב להיות בגרסה הראשונה.</p></li>
+        <li class="hl"><span class="num">2</span><h3 data-i18n="p2.t">מוקאפים</h3><p data-i18n="p2.d">תמונות של המסכים לפני שכותבים שורת קוד. משנים עד שזה נראה בדיוק כמו שצריך.</p></li>
+        <li><span class="num">3</span><h3 data-i18n="p3.t">פיתוח</h3><p data-i18n="p3.d">בונים לפי המוקאפים שאישרתם, ואתם מקבלים גרסאות ביניים לנסות.</p></li>
+        <li><span class="num">4</span><h3 data-i18n="p4.t">בדיקות</h3><p data-i18n="p4.d">בדיקה על טלפונים אמיתיים ובדיקה סגורה עם משתמשים לפני שכולם רואים.</p></li>
+        <li><span class="num">5</span><h3 data-i18n="p5.t">פרסום</h3><p data-i18n="p5.d">העלאה ל-Google Play או לאינטרנט, כולל דף האפליקציה, צילומי מסך ומדיניות פרטיות.</p></li>
+        <li><span class="num">6</span><h3 data-i18n="p6.t">ליווי</h3><p data-i18n="p6.d">תיקונים, עדכונים ותוספות אחרי ההשקה, לפי מה שהמשתמשים מבקשים.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="section work" id="work" aria-labelledby="work-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker" data-i18n="work.kicker">תיק עבודות</p>
+        <h2 id="work-h" data-i18n="work.title">הפרויקט הראשון: ClimaSnap IL</h2>
+        <p class="sec-sub" data-i18n="work.sub">אפליקציה אמיתית שפיתחתי מאפס, מהמוקאפים ועד Google Play.</p>
+      </div>
+
+      <article class="case">
+        <div class="case-main">
+          <div class="case-id">
+            <img class="case-icon" src="assets/img/climasnap/icon-256.svg" width="88" height="88" alt="ClimaSnap IL">
+            <div>
+              <p class="status"><span class="pulse" aria-hidden="true"></span><span data-i18n="case.status">בבדיקה סגורה · בקרוב ב-Google Play</span></p>
+              <h3 class="case-name">ClimaSnap IL</h3>
+              <p class="case-tag" data-i18n="case.tagline">מחשבון הספק מזגן לטכנאים ולמתקינים, מותאם לאקלים הישראלי</p>
+            </div>
+          </div>
+          <p class="case-by" data-i18n="case.by">פיתח: דניס זולוטר (בחנות Google Play בשם Denis Air Tech)</p>
+          <p class="case-desc" data-i18n="case.desc">אפליקציית אנדרואיד שמחליפה את החישוב על דף: הספק מזגן לחדר או לדירה שלמה, כלים מקצועיים ופרויקטים של לקוחות עם תמונות. הכול בטלפון, גם בלי אינטרנט.</p>
+          <ul class="checks">
+            <li data-i18n="case.f1">חישוב BTU לחדר ולדירה שלמה לפי אזור, חלונות, כיוון השמש ואנשים</li><li data-i18n="case.f2">המרת יחידות: kW, BTU, טון קירור, כ״ס, CFM</li><li data-i18n="case.f3">חתך כבל לפי תקנות החשמל בישראל ובחירת צנרת אוויר</li>
+            <li data-i18n="case.f4">פרויקטים של לקוחות עם עד 12 תמונות מהאתר</li><li data-i18n="case.f5">PDF ללקוח ושליחה ב-WhatsApp</li><li data-i18n="case.f6">בלי אינטרנט, בלי פרסומות ובלי הרשמה</li>
+            <li data-i18n="case.f7">עברית, רוסית ואנגלית, ומצב כהה</li>
+          </ul>
+          <ul class="tags" aria-label="Tech">
+            <li>Android</li><li>Offline</li><li>HE · RU · EN</li><li>RTL</li><li>PDF</li><li>WhatsApp</li>
+          </ul>
+          <a class="link" data-href="privacy" href="https://denisairtech.github.io/climasnap-privacy/" target="_blank" rel="noopener" data-i18n="case.privacy">מדיניות הפרטיות של האפליקציה</a>
+        </div>
+        <figure class="case-video">
+          <video controls preload="none" playsinline poster="assets/video/climasnap-promo-poster.svg" width="540" height="960" data-b64="assets/video/climasnap-promo-he.mp4.b64.txt"></video>
+          <figcaption data-i18n="case.video">סרטון קצר (בעברית)</figcaption>
+        </figure>
+      </article>
+
+      <div class="gallery">
+        <div class="gallery-head">
+          <h3 data-i18n="case.gallery">מסכים מהאפליקציה</h3>
+          <div class="gallery-nav">
+            <button type="button" class="round" data-scroll="prev" data-i18n-attr="aria-label:case.prev" aria-label="המסך הקודם"><span aria-hidden="true">‹</span></button>
+            <button type="button" class="round" data-scroll="next" data-i18n-attr="aria-label:case.next" aria-label="המסך הבא"><span aria-hidden="true">›</span></button>
+          </div>
+        </div>
+        <div class="shots" id="shots" tabindex="0"></div>
+      </div>
+
+      <div class="next-card">
+        <div><h3 data-i18n="next.t">הפרויקט הבא יכול להיות שלכם</h3><p data-i18n="next.d">יש לכם רעיון לאפליקציה או לכלי שיחסוך זמן לעסק? בואו נראה יחד איך זה יכול להיראות.</p></div>
+        <a class="btn btn-amber" href="#contact" data-i18n="next.cta">ספרו לי על הרעיון</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact" aria-labelledby="contact-h">
+    <div class="wrap contact-in">
+      <div class="contact-copy">
+        <p class="kicker" data-i18n="contact.kicker">צור קשר</p>
+        <h2 id="contact-h" data-i18n="contact.title">בואו נדבר על הפרויקט שלכם</h2>
+        <p class="sec-sub" data-i18n="contact.sub">ספרו בכמה מילים מה אתם צריכים, ואחזור אליכם עם שאלות ורעיון ראשוני.</p>
+        <h3 class="direct-h" data-i18n="direct.title">או ישירות</h3>
+        <ul class="direct">
+          <li><a data-href="wa" href="https://wa.me/972547712536" target="_blank" rel="noopener"><span class="ic ic-sm ic-green" aria-hidden="true">💬</span><span><b data-i18n="direct.wa">WhatsApp</b><span class="ltr" data-contact="phone">054-771-2536</span></span></a></li>
+          <li><a data-href="tel" href="tel:+972547712536"><span class="ic ic-sm ic-blue" aria-hidden="true">📞</span><span><b data-i18n="direct.phone">טלפון</b><span class="ltr" data-contact="phone">054-771-2536</span></span></a></li>
+          <li><a data-href="mail" href="mailto:daletmizug@gmail.com"><span class="ic ic-sm ic-amber" aria-hidden="true">✉️</span><span><b data-i18n="direct.mail">אימייל</b><span class="ltr" data-contact="email">daletmizug@gmail.com</span></span></a></li>
+          <li><a data-href="fb" href="https://www.facebook.com/share/19Jobcs5GA/" target="_blank" rel="noopener"><span class="ic ic-sm ic-indigo" aria-hidden="true">👍</span><span><b>Facebook</b><span class="ltr">facebook.com</span></span></a></li>
+          <li><a data-href="ig" href="https://instagram.com/air_tech21" target="_blank" rel="noopener"><span class="ic ic-sm ic-pink" aria-hidden="true">📸</span><span><b>Instagram</b><span class="ltr" data-contact="ig">@air_tech21</span></span></a></li>
+        </ul>
+      </div>
+      <form id="contact-form" class="form" novalidate>
+        <div class="field"><label for="f-name" data-i18n="form.name">שם</label><input id="f-name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="f-biz" data-i18n="form.biz">תחום או עסק (לא חובה)</label><input id="f-biz" name="biz" autocomplete="organization"></div>
+        <div class="field"><label for="f-type" data-i18n="form.type">סוג הפרויקט</label>
+          <select id="f-type" name="type">
+            <option data-i18n="form.t1">אפליקציית אנדרואיד</option><option data-i18n="form.t2">אפליקציית ווב / PWA</option>
+            <option data-i18n="form.t3">מחשבון או כלי לעסק</option><option data-i18n="form.t4">עדיין לא בטוח</option>
+          </select></div>
+        <div class="field"><label for="f-msg" data-i18n="form.msg">ספרו על הרעיון</label><textarea id="f-msg" name="msg" rows="4" required data-i18n-attr="placeholder:form.msgPh" placeholder="למשל: אפליקציה לטכנאים שלנו לרישום עבודות ותמונות מהשטח"></textarea></div>
+        <p id="form-err" class="form-err" role="alert" hidden></p>
+        <div class="form-btns">
+          <button type="button" id="send-wa" class="btn btn-wa"><span aria-hidden="true">💬</span> <span data-i18n="form.wa">שליחה ב-WhatsApp</span></button>
+          <button type="button" id="send-mail" class="btn btn-ghost"><span aria-hidden="true">✉️</span> <span data-i18n="form.mail">שליחה במייל</span></button>
+        </div>
+        <p class="form-note" data-i18n="form.note">הטופס לא שומר שום מידע. הוא רק פותח את WhatsApp או את המייל שלכם עם הודעה מוכנה.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-in">
+    <div class="footer-brand">
+      <span class="logo"><span class="logo-mark" data-monogram aria-hidden="true">Z</span><span class="logo-text" data-brand>Zolotar Dev</span></span>
+      <p data-i18n="footer.tag">פיתוח אפליקציות בהזמנה · ישראל</p>
+    </div>
+    <div class="footer-links">
+      <a data-href="privacy" href="https://denisairtech.github.io/climasnap-privacy/" target="_blank" rel="noopener" data-i18n="footer.privacy">מדיניות פרטיות — ClimaSnap IL</a>
+      <p data-i18n="footer.nocookies">האתר לא משתמש בעוגיות ובכלי מעקב.</p>
+      <p data-i18n="footer.copy">© 2026 Zolotar Dev · דניס זולוטר</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
