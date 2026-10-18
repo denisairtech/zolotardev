@@ -1,0 +1,2 @@
+Heebo — Copyright 2014 The Heebo Project Authors. Licensed under the SIL Open Font License 1.1 (https://openfontlicense.org).
+Rubik (Cyrillic subset, used for Russian) — see OFL-Rubik.txt.
