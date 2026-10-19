@@ -124,6 +124,7 @@ p{margin:0 0 1em}
 .checks{list-style:none;padding:0;margin:0 0 20px;display:grid;grid-template-columns:1fr 1fr;gap:10px 22px}
 .checks li{position:relative;padding-inline-start:30px;font-size:16px}
 .checks li::before{content:"✓";position:absolute;inset-inline-start:0;top:1px;width:21px;height:21px;border-radius:50%;background:#dcfce7;color:#15803d;font-weight:900;font-size:13px;display:grid;place-items:center}
+.checks li.soon{grid-column:1/-1}.checks li.soon::before{content:"★";background:#fef3c7;color:#92400e;font-size:12px}
 .tags{list-style:none;padding:0;margin:0 0 18px;display:flex;flex-wrap:wrap;gap:8px}
 .tags li{font-size:13px;font-weight:700;background:#f1f5f9;color:var(--ink-2);border-radius:8px;padding:4px 10px;direction:ltr}
 .link{font-weight:700}
