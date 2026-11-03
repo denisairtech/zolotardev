@@ -53,7 +53,7 @@
     $all("[data-href]").forEach(function (a) {
       var k = a.getAttribute("data-href");
       var map = { tel: "tel:" + c.phoneE164, wa: "https://wa.me/" + c.whatsapp, mail: "mailto:" + c.email,
-        fb: c.facebook, ig: c.instagram, privacy: S.privacyUrl };
+        fb: c.facebook, ig: c.instagram, privacy: S.privacyUrl, play: S.playUrl };
       if (map[k]) a.href = map[k];
     });
     $all("[data-contact]").forEach(function (el) {
