@@ -27,6 +27,8 @@ window.SITE = {
   },
   /* Name the ClimaSnap IL app is published under on Google Play */
   appPublisher: "Denis Air Tech",
+  /* ClimaSnap IL on Google Play */
+  playUrl: "https://play.google.com/store/apps/details?id=com.denisairtech.climasnap",
   privacyUrl: "https://denisairtech.com/climasnap/privacy/",
   year: 2026
 };
